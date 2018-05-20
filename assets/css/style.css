@@ -1,0 +1,67 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	background-color:lightgoldenrodyellow;
+	/* Margin bottom by footer height */
+  	margin-bottom: 60px;
+}
+
+#wrap {
+	background-color: lightgoldenrodyellow;
+	color:#646464;
+}
+
+#header {
+	background-color: orange;
+	height:70px;
+}
+
+#title {
+	color: white;
+	text-align:center;
+	font-family: 'Covered By Your Grace', cursive;
+	padding-top:16px;
+}
+
+#buttonArea{
+	margin-top:10px;
+}
+
+.btn {
+	margin:3px;
+}
+
+#gifArea {
+	margin-top:20px;
+}
+
+.purpleBorder {
+	border-radius: 5px;
+	border: 2px solid purple;
+}
+
+.submit {
+	background-color: #262626;
+	color:white;
+	border:1px solid #646464;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align:center;
+    background-color: orange;
+}
+
+.credits {
+	font-size: .8em;
+}
+.clear {
+	clear:both;
+}
